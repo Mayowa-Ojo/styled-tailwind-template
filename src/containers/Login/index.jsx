@@ -67,7 +67,7 @@ const Login = () => {
                      <Link to="#" css={[tw`text-xs text-gray-500 font-medium`]}>Forgot password?</Link>
                   </Container>
                   <FormInputBox>
-                     <FormInput id="password" placeholder="" name="password" value={inputs.password} onChange={handleChange}/>
+                     <FormInput type="password" id="password" placeholder="" name="password" value={inputs.password} onChange={handleChange}/>
                   </FormInputBox>
                </Container>
                <Button css={[tw`font-semibold mt-6 bg-indigo-400 px-10 py-2 rounded-md`]} onClick={handleLogin}>Sign In</Button>
